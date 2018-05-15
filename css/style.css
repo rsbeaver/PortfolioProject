@@ -1,0 +1,172 @@
+body {
+    font-family: "Merriweather", serif;
+    margin: 15px, auto;
+
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+header {
+      display: flex;
+      flex-wrap: wrap;
+      width: 90vw;
+      margin:auto;
+      justify-content: space-between;
+      background-color: white;
+      z-index:10;
+
+      }
+
+ .logo {
+   display: flex;
+   flex-wrap: wrap;
+
+
+ }
+.logo img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 60%;
+  border: 1px solid black;
+  margin-top: 35px
+}
+
+h1 {
+  display: flex;
+  flex-wrap:  wrap;
+  font-size: 2.8em;
+  font-weight: 300;
+  color: #2d3c49;
+  margin-top: 22px
+  }
+
+span {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: -30px;
+  margin-right: 9px;
+  color: #2d3c49;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid #7d97ad;
+  color: black;
+}
+
+.main img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.main figcaption {
+  display: flex;
+  font-size: 8px;
+}
+
+.featured {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.featured h2 {
+  display: flex;
+  color: #7d97ad;
+  font-weight: 200;
+  margin-left: 50px
+
+
+}
+
+.photos {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0px 20px  0px 40px;
+}
+.press img {
+  width: 35w;
+  border: 1px solid black;
+}
+
+.press figcaption {
+  margin: -10px 0px -20px -10px
+
+}
+
+.photos h2 {
+   color: #2d3c49;
+}
+
+.photos a {
+  font-size: 0.7em;
+  padding-bottom: 3em;
+
+}
+
+.flower img {
+  width:33w;
+  border: 1px solid black;
+}
+
+.flower figcaption {
+    margin: -10px 0px -20px -25px;
+}
+
+.swing img {
+  display: flex;
+  border: 1px solid black;
+}
+
+.swing figcaption {
+    margin: -10px 0px -40px -30px;
+}
+
+@media screen and (max-width: 400px) {
+
+.header {
+  justify-content: center;
+}
+
+.logo {
+  width: 40%;
+  justify-content: center;
+}
+
+.name {
+  justify-content: center;
+}
+
+  span {
+    padding-top: 20px;
+    justify-content: center;
+     text-align: center;
+    font-size: 0.8em;
+  }
+
+hr {
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 352px) {
+header {
+  display: flex-block;
+  justify-content: center;
+  margin: auto;
+}
+
+  h1 {
+    padding-left: 30px;
+     }
+}
